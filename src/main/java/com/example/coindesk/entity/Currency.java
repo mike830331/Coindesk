@@ -13,7 +13,8 @@ public class Currency {
     private String code;
     private String name;
 
-    public Currency() {}
+    public Currency() {
+    }
 
     public String getCode() {
         return code;

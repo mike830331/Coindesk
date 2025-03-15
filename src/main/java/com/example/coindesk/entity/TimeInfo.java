@@ -6,12 +6,27 @@ public class TimeInfo {
     private String updateduk;
 
     // Getters and Setters
-    public String getUpdated() { return updated; }
-    public void setUpdated(String updated) { this.updated = updated; }
+    public String getUpdated() {
+        return updated;
+    }
 
-    public String getUpdatedISO() { return updatedISO; }
-    public void setUpdatedISO(String updatedISO) { this.updatedISO = updatedISO; }
+    public void setUpdated(String updated) {
+        this.updated = updated;
+    }
 
-    public String getUpdateduk() { return updateduk; }
-    public void setUpdateduk(String updateduk) { this.updateduk = updateduk; }
+    public String getUpdatedISO() {
+        return updatedISO;
+    }
+
+    public void setUpdatedISO(String updatedISO) {
+        this.updatedISO = updatedISO;
+    }
+
+    public String getUpdateduk() {
+        return updateduk;
+    }
+
+    public void setUpdateduk(String updateduk) {
+        this.updateduk = updateduk;
+    }
 }
