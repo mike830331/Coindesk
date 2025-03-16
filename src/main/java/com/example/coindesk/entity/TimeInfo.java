@@ -29,4 +29,8 @@ public class TimeInfo {
     public void setUpdateduk(String updateduk) {
         this.updateduk = updateduk;
     }
+
+    public TimeInfo(String updatedISO) {
+        this.updatedISO = updatedISO;
+    }
 }

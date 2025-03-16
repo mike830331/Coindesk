@@ -34,7 +34,7 @@ public class CoindeskService {
         return response.getBody();
     }
 
-    private List<TransformedDataDTO> transformData(CoindeskResponse coindeskData, List<Currency> currencyList) {
+    List<TransformedDataDTO> transformData(CoindeskResponse coindeskData, List<Currency> currencyList) {
         String formattedTime = DateUtil.formatToCustomTime(coindeskData.getTime().getUpdatedISO());
 
         Map<String, String> currencyMap = currencyList.stream()

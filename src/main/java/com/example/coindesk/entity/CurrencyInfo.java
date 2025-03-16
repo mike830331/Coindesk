@@ -51,4 +51,12 @@ public class CurrencyInfo {
     public void setRateFloat(double rateFloat) {
         this.rateFloat = rateFloat;
     }
+
+    public CurrencyInfo(String code, String symbol, String rate, String description, double rateFloat) {
+        this.code = code;
+        this.symbol = symbol;
+        this.rate = rate;
+        this.description = description;
+        this.rateFloat = rateFloat;
+    }
 }
